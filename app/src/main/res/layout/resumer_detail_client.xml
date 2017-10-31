@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/window_background"
+        android:orientation="vertical"
+        android:weightSum="100"
+        >
+    <ScrollView
+        android:layout_weight="95"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_top_info_client"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hauteur_resumer_info_client"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="@dimen/component_spacing_bis"
+                android:layout_height="wrap_content"
+                android:background="@color/color_primary_dark"/>
+            <LinearLayout
+                android:paddingLeft="@dimen/component_spacing_bis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                       >
+                        <TextView
+                            android:textSize="@dimen/titre_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/information_client"
+                            android:gravity="left"/>
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/component_spacing_bis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <TextView
+                        android:textSize="@dimen/text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/raison_sociale"
+                        android:layout_weight="1"
+                        android:gravity="left"/>
+                    <TextView
+                        android:id="@+id/raison_sociale_resumer"
+                        android:textSize="@dimen/text_size"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="raison sociale"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+                    <TextView
+                        android:textSize="@dimen/text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nom_prenom"
+                        android:layout_weight="40"
+                        android:gravity="left"/>
+                    <TextView
+                        android:id="@+id/nom_prenom_resumer"
+                        android:textSize="@dimen/text_size"
+                        android:gravity="right"
+                        android:layout_weight="60"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="raison sociale"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <TextView
+                        android:textSize="@dimen/text_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mail"
+                        android:layout_weight="1"
+                        android:gravity="left"/>
+                    <TextView
+                        android:id="@+id/adresse_mail_resumer"
+                        android:textSize="@dimen/text_size"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="raison sociale"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <TextView
+                        android:textSize="@dimen/text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/numero_telephone"
+                        android:layout_weight="1"
+                        android:gravity="left"/>
+                    <TextView
+                        android:id="@+id/numero_client_resumer"
+                        android:textSize="@dimen/text_size"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="raison sociale"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+                    <TextView
+                        android:textSize="@dimen/text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/adresse_facturation"
+                        android:layout_weight="50"
+                        android:gravity="left"/>
+                    <TextView
+                        android:id="@+id/adresse_facturation_resumer"
+                        android:textSize="@dimen/text_size"
+                        android:gravity="right"
+                        android:layout_weight="50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="raison sociale"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hauteur_resumer_info_bancaire"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top_info_client">
+        <View
+            android:layout_width="@dimen/component_spacing_bis"
+            android:layout_height="wrap_content"
+            android:background="@color/gris_claire"/>
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:textSize="@dimen/titre_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/information_bancaire"
+                    android:layout_weight="1"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/component_spacing_bis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <TextView
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/numero_carte_bancaire"
+                    android:layout_weight="1"
+                    android:gravity="left"/>
+                <TextView
+                    android:id="@+id/numero_bancaire_resumer"
+                    android:textSize="@dimen/text_size"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="raison sociale"
+                    android:layout_gravity="right"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_info_etabliessement"
+        android:layout_marginTop="@dimen/margin_top_info_client"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hauteur_resumer_etablissement_secondaire"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/color_primary_dark"/>
+        <LinearLayout
+            android:paddingLeft="@dimen/component_spacing_bis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:textSize="@dimen/titre_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/etablissement_secondaire"
+                    android:layout_weight="1"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/component_spacing_bis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                >
+                <TextView
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/demande_etablissement_secondaire"
+                    android:layout_weight="40"/>
+                <TextView
+                    android:id="@+id/demande_etablissement_secondaire_resumer"
+                    android:layout_weight="60"
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="raison"
+                    android:gravity="right|center_vertical"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/demande_independance_paiement"
+                    android:layout_weight="40"
+                    />
+                <TextView
+                    android:id="@+id/demande_independance_paiement_resumer"
+                    android:textSize="@dimen/text_size"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="60"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="raison sociale" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+               <ListView
+                   android:id="@+id/list_etabliesement_resumer"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+               </ListView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/demande_independance_artisan"
+                    android:layout_weight="40"
+                    android:gravity="left"/>
+                <TextView
+                    android:id="@+id/demande_independance_artisan_resumer"
+                    android:textSize="@dimen/text_size"
+                    android:gravity="right|center_vertical"
+                    android:layout_weight="60"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="raison"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/layout_cgu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/login_margin"
+            android:layout_marginRight="@dimen/login_margin"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/login_margin_top"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cgv"
+                    android:textSize="@dimen/text_size"
+                    />
+
+                <CheckBox
+                    android:id="@+id/checkbox_cgu_login_reusmer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_top_info_client"
+                    android:button="@drawable/customdrawablecheckbox" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_view_cgu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_top_condition_generale"
+                android:text="@string/consultation_condition"
+                android:textSize="@dimen/text_size_cgu"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:textSize="@dimen/text_size_button"
+            android:layout_marginTop="@dimen/login_margin"
+            android:layout_marginLeft="@dimen/login_margin"
+            android:layout_marginRight="@dimen/login_margin"
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connexion"
+            android:textColor="@color/blanc"
+            android:background="@drawable/background_card_yellow"
+            />
+    </LinearLayout>
+    </LinearLayout>

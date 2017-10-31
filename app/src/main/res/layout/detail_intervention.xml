@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/window_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_commentaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="@dimen/marginTop"
+            android:gravity="center"
+            android:textSize="@dimen/textSize"
+            android:text="@string/commentaire_employee"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_commentaire_height"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/login_margin"
+            android:layout_marginRight="@dimen/login_margin"
+            android:layout_marginTop="@dimen/login_margin">
+
+            <View
+                android:layout_width="6dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_primary_dark"/>
+            <View
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:background="@color/gris"/>
+
+            <EditText
+                android:id="@+id/edit_text_commentaire"
+                android:inputType="textMultiLine|textCapWords"
+                android:gravity="top|left"
+                android:textSize="@dimen/textSize"
+                android:textColor="@color/blanc"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:scrollbars="vertical"
+                android:background="@color/gris"
+                android:imeOptions="actionDone"
+                />
+            <View
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:background="@color/gris"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_create_intervention"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_button"
+            android:layout_margin="@dimen/login_margin"
+            android:text="@string/valider"
+            android:textColor="@color/blanc"
+            android:background="@drawable/background_card_yellow"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

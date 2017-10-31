@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/login_margin"
+    android:paddingBottom="@dimen/login_margin"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/login_margin"
+    android:layout_marginBottom="@dimen/login_margin"
+    android:background="@drawable/border"
+    android:gravity="center">
+
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/login_margin_top"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="@dimen/textSize"
+        android:text="@string/signatur"/>
+
+    <LinearLayout
+        android:background="@color/blanc"
+        android:layout_below="@id/question"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="@dimen/login_margin"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary_dark"/>
+
+        <com.github.gcacace.signaturepad.views.SignaturePad
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/signature_pad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:penColor="@android:color/black"
+            app:penMaxWidth="1dp"
+            app:penMinWidth="1dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_weight=".50"
+            android:background="@color/color_primary_dark"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button_pop_up_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/annuler"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:layout_weight=".50"
+            android:background="@color/color_primary_dark"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button_pop_up_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

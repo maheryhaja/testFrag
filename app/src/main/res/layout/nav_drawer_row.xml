@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@color/gris"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/nav_item_icon"
+        android:layout_width="@dimen/icon_width_height"
+        android:layout_height="@dimen/icon_width_height"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_home"/>
+
+    <fr.hdb.artibip.presentation.widget.typeface.TypefaceTextView
+        android:id="@+id/nav_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="@dimen/text_size"
+        app:customTypeface="@string/lato_regular"/>
+
+</LinearLayout>

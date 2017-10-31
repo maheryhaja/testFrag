@@ -1,0 +1,89 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <bool name="is_tablette">true</bool>
+
+    <dimen name="list_materiel_height">90dp</dimen>
+    <dimen name="list_item_etablissement_height">120dp</dimen>
+
+    <dimen name="login_margin">50dp</dimen>
+    <dimen name="login_margin_top">40dp</dimen>
+    <dimen name="or_margin">250dp</dimen>
+    <dimen name="text_size">22dp</dimen>
+    <dimen name="toolbar_text_size">8dp</dimen>
+    <dimen name="text_size_button">20sp</dimen>
+
+    <!-- main -->
+    <dimen name="header_height">130dp</dimen>
+    <dimen name="nav_drawer_width">500dp</dimen>
+    <dimen name="icon_width_height">45dp</dimen>
+
+    <!-- card. -->
+    <dimen name="card_width_height">225dp</dimen>
+    <dimen name="title_size_text">20sp</dimen>
+    <dimen name="component_spacing">20dp</dimen>
+    <dimen name="or_margin_layout">15dp</dimen>
+    <dimen name="or_margin_layout_pass">5dp</dimen>
+    <dimen name="text_size_cgu">14sp</dimen>
+    <dimen name="grid_spacing">45dp</dimen>
+
+    <dimen name="loader_size">120dp</dimen>
+
+    <dimen name="linear_commentaire_height">260dp</dimen>
+
+    <!-- liste photo -->
+    <dimen name="view_pager_photo_height">160dp</dimen>
+    <dimen name="indicator_photo_height_width">7dp</dimen>
+    <dimen name="indicator_viewpager_photo_espacement">10dp</dimen>
+    <dimen name="indicator_height">20dp</dimen>
+    <dimen name="boutton_indicator_photo_espacement">45dp</dimen>
+    <dimen name="prisephoto_viewpager_espacement">50dp</dimen>
+    <dimen name="pop_up_height">500dp</dimen>
+
+    <dimen name="photo_margin_bottom">100dp</dimen>
+
+    <!-- dimension boutton oui ou non -->
+    <dimen name="espacement_boutton_oui_non">60dp</dimen>
+    <dimen name="marginTop_boutton_oui_non">50dp</dimen>
+    <dimen name="bouttonwidth">230dp</dimen>
+    <dimen name="bouttonheight">230dp</dimen>
+
+    <!--textSize -->
+    <dimen name="textSize">22dp</dimen>
+
+    <!-- artisan list demande -->
+    <dimen name="marginLeft_facturer">210dp</dimen>
+
+    <!-- artisan liste materiel -->
+    <dimen name="width_designation">480dp</dimen>
+    <dimen name="width_prix">115dp</dimen>
+    <dimen name="height_champs">60dp</dimen>
+
+    <!-- facturation finale -->
+    <dimen name="heigh_relative_layout_deplacemnt">120dp</dimen>
+    <dimen name="titre_size">26dp</dimen>
+    <dimen name="height_relative_layout_signature">250dp</dimen>
+    <dimen name="margin_left_liste_materiel">100dp</dimen>
+    <dimen name="width_nom_materiel">375dp</dimen>
+    <dimen name="margin_left_under_materiel">250dp</dimen>
+
+    <dimen name="marginTop">50dp</dimen>
+
+    <!-- image logo toolbar -->
+    <dimen name="margin_bottom_logo_toolbar">30dp</dimen>
+    <dimen name="width_logo_toolbar">150dp</dimen>
+    <dimen name="margin_right_logo">50dp</dimen>
+
+    <!-- list materiel artisan -->
+    <dimen name="bouton_margin_top">200dp</dimen>
+    <dimen name="width_materiel_name">400dp</dimen>
+
+    <!-- size textView demande artisan -->
+    <dimen name="size_text_demande_artisan">22dp</dimen>
+    <dimen name="size_text_demande_client">22sp</dimen>
+
+    <dimen name="margin_top_info_client">20dp</dimen>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/login_margin"
+  >
+
+
+
+
+    <fr.hdb.artibip.presentation.view.CustomImageView
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo"
+        android:id="@+id/image_to_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:id="@+id/linear_boutton"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_weight=".50"
+            android:background="#EFC902"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button_pop_up_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/annuler"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:layout_weight=".50"
+            android:background="#EFC902"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button_pop_up_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            />
+    </LinearLayout>
+    <fr.hdb.artibip.presentation.widget.typeface.TypefaceTextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_pop_up_custom"
+        android:textSize="@dimen/text_size"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="3"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/linear_boutton"
+        app:customTypeface="@string/lato_regular"
+        android:text="MESSAGE"/>
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_margin_top"
+        android:layout_alignParentTop="true"
+        />
+</RelativeLayout>
+

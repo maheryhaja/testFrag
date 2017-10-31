@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/window_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <!-- email field  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin">
+
+        <View
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary_dark"/>
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@color/gris"
+                />
+            <ImageView
+                android:layout_width="@dimen/margin_top_info_client"
+                android:layout_height="@dimen/margin_top_info_client"
+                android:layout_centerInParent="true"
+                android:src="@drawable/picto_mail"/>
+        </RelativeLayout>
+
+       <EditText
+            android:textSize="@dimen/text_size"
+            android:id="@+id/edit_text_mail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gris"
+            android:hint="@string/mail"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/blanc"
+            android:textColorHint="@color/blanc"
+            android:imeOptions="actionDone"
+          />
+    </LinearLayout>
+
+
+    <!-- or field  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/or_margin"
+        android:layout_marginRight="@dimen/or_margin"
+        android:layout_marginTop="@dimen/or_margin_layout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_weight="40"
+            android:background="@color/blanc" />
+
+      <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_top_info_client"
+            android:layout_marginRight="@dimen/margin_top_info_client"
+            android:text="@string/or"
+            android:textSize="@dimen/text_size"
+            />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_weight="40"
+            android:background="@color/blanc" />
+    </LinearLayout>
+
+
+    <!-- telephon field  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/or_margin_layout">
+        <View
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary_dark"/>
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@color/gris"
+                />
+            <ImageView
+                android:layout_width="@dimen/margin_top_info_client"
+                android:layout_height="@dimen/margin_top_info_client"
+                android:layout_centerInParent="true"
+                android:src="@drawable/picto_phone"/>
+        </RelativeLayout>
+
+       <EditText
+            android:textSize="@dimen/text_size"
+            android:id="@+id/edit_text_tel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gris"
+            android:hint="@string/tel"
+            android:maxLength="20"
+            android:imeOptions="actionDone"
+            android:inputType="number|phone"
+            android:textColor="@color/blanc"
+            android:textColorHint="@color/blanc"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top_logo_layout">
+        <View
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary_dark"/>
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@color/gris"
+                />
+            <ImageView
+                android:layout_width="@dimen/margin_top_info_client"
+                android:layout_height="@dimen/margin_top_info_client"
+                android:layout_centerInParent="true"
+                android:src="@drawable/picto_lock"/>
+        </RelativeLayout>
+       <EditText
+            android:textSize="@dimen/text_size"
+            android:id="@+id/edit_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gris"
+            android:hint="@string/password_hint"
+            android:textColor="@color/blanc"
+            android:inputType="textPassword"
+            android:textColorHint="@color/blanc"
+            android:imeOptions="actionDone"
+           />
+    </LinearLayout>
+
+   <TextView
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="center"
+        android:id="@+id/text_view_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mot_de_passe_oublie"
+        android:layout_marginTop="@dimen/login_margin_top"
+       />
+
+    <TextView
+        android:id="@+id/click_inscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/click_inscription"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="@dimen/login_margin_top"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout_cgu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/login_margin_top"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+          <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cgv"
+                android:textSize="@dimen/text_size"
+                />
+
+            <CheckBox
+                android:id="@+id/checkbox_cgu_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_top_info_client"
+                android:button="@drawable/customdrawablecheckbox" />
+        </LinearLayout>
+
+       <TextView
+            android:id="@+id/text_view_cgu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_top_condition_generale"
+            android:text="@string/consultation_condition"
+            android:textSize="@dimen/text_size_cgu"
+           />
+
+    </LinearLayout>
+
+    <Button
+        android:textSize="@dimen/text_size_button"
+        android:layout_marginTop="@dimen/login_margin"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connexion"
+        android:textColor="@color/blanc"
+        android:background="@drawable/background_card_yellow"
+        />
+</LinearLayout>
+
+</ScrollView>

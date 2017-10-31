@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/marginTop"
+    android:orientation="vertical"
+    android:background="@color/window_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height_intervention"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="@color/color_primary_dark">
+        <RelativeLayout
+            android:id="@+id/tab_urgentes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/jaune"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/text_urgentes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/question_margin"
+                android:gravity="center"
+                android:text="@string/intervention_urgentes"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tab_non_urgentes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/gris"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/text_non_urgentes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_margin="@dimen/question_margin"
+                android:text="@string/intervention_non_urgentes"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_alignParentTop="true"
+            android:id="@+id/listview_demande_client"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-2dp"
+            android:layout_above="@+id/button_nouvelle_demande">
+        </ListView>
+
+        <TextView
+            android:id="@+id/text_aucune_demande"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aucune_demande"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="@dimen/_title_text_size"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/button_nouvelle_demande"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/marginBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nouvelle_demande"
+            android:textColor="@color/blanc"
+            android:background="@drawable/background_card_yellow"/>
+
+    </RelativeLayout>
+</LinearLayout>

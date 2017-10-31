@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/window_background">
+
+   <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textSize"
+        android:text="@string/duree_trajet"/>
+
+    <RelativeLayout
+        android:layout_below="@id/question"
+        android:id="@+id/Linearheureminute"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+        <View
+            android:id="@+id/v1"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary_dark"/>
+        <EditText
+            android:layout_toRightOf="@id/v1"
+            android:id="@+id/edit_text_heure"
+            android:layout_width="75dp"
+            android:paddingLeft="5dp"
+            android:textSize="@dimen/textSize"
+            android:maxLength="2"
+            android:layout_height="match_parent"
+            android:textColor="@color/blanc"
+            android:inputType="number|none"
+            android:background="@color/gris"
+            />
+       <TextView
+           android:textSize="@dimen/textSize"
+            android:id="@+id/txt1"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/edit_text_heure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="heures et"/>
+
+        <View
+            android:layout_toRightOf="@id/txt1"
+            android:id="@+id/v2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary_dark"/>
+       <EditText
+            android:textSize="@dimen/textSize"
+            android:paddingLeft="5dp"
+            android:id="@+id/edit_text_minute"
+            android:layout_toRightOf="@id/v2"
+            android:layout_width="75dp"
+            android:maxLength="2"
+            android:layout_height="match_parent"
+            android:textColor="@color/blanc"
+            android:inputType="number|none"
+            android:background="@color/gris"/>
+       <TextView
+           android:textSize="@dimen/textSize"
+            android:layout_toRightOf="@id/edit_text_minute"
+            android:id="@+id/txt2"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="minutes"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Linearheureminute"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="@dimen/textSize"
+        android:id="@+id/text_view_temps_parcours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcule_temps_parcours"/>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:id="@+id/button_oui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valider"
+        android:textColor="@color/blanc"
+        android:background="@drawable/bt_arrondi_jaune"/>
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background">
+
+    <RelativeLayout
+        android:id="@+id/layout_besoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/text_votre_besoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title_size_text"
+            android:text="@string/votre_besoin"
+            android:gravity="center"
+            android:textColor="@color/text_color_primary"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/card_title_margin_bottom_large"/>
+
+        <LinearLayout
+            android:layout_below="@+id/text_votre_besoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:id="@+id/layout_card_urgence"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/card_image_margin"
+                >
+                <RelativeLayout
+                    android:layout_width="@dimen/card_width_height"
+                    android:layout_height="@dimen/card_width_height"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/background_card_yellow">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/urgence_card_title"
+                        android:gravity="center"
+                        android:textSize="@dimen/title_size_text"
+                        android:textColor="@color/text_color_primary"
+                        android:paddingTop="@dimen/card_title_padding"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/picto_urgent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/card_image_margin"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_card_intervention"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/card_image_margin"
+                android:layout_weight="1"
+                >
+                <RelativeLayout
+                    android:layout_width="@dimen/card_width_height"
+                    android:layout_height="@dimen/card_width_height"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/background_card_grey">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/intervention_card_title"
+                        android:textSize="@dimen/title_size_text"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_primary"
+                        android:paddingTop="@dimen/card_title_padding"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/picto_intervention"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/card_image_margin"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

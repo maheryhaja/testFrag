@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/login_margin"
+    android:paddingBottom="@dimen/login_margin"
+    android:layout_margin="@dimen/login_margin"
+    android:background="@drawable/border"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/login_margin_top"/>
+
+    <fr.hdb.artibip.presentation.widget.typeface.TypefaceTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titre_pop_up"
+        android:textSize="@dimen/title_size_text"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:maxLines="1"
+        app:customTypeface="@string/lato_regular"
+        android:layout_margin="@dimen/login_margin"
+        android:text="TITRE"/>
+
+    <fr.hdb.artibip.presentation.widget.typeface.TypefaceTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_pop_up"
+        android:textSize="@dimen/text_size"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:maxLines="3"
+        app:customTypeface="@string/lato_regular"
+        android:text="MESSAGE"/>
+
+    <Button
+        android:textSize="@dimen/text_size_button"
+        android:layout_marginTop="@dimen/login_margin"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:id="@+id/button_pop_pup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:textColor="@color/blanc"
+        android:background="@drawable/background_card_yellow"></Button>
+</LinearLayout>

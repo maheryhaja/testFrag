@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "fr.hdb.artibip",
+    "sha256_cert_fingerprints":
+    ["89:C1:AA:27:4D:FE:59:57:5E:77:4E:40:B8:E7:5F:31:A4:FB:4C:30:F3:54:72:FA:74:D9:EB:82:4F:8D:B0:6D"]
+  }
+}]

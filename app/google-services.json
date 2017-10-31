@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "865836073482",
+    "firebase_url": "https://dclicelec-fb9aa.firebaseio.com",
+    "project_id": "dclicelec-fb9aa",
+    "storage_bucket": "dclicelec-fb9aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865836073482:android:9bbadb184b6867ad",
+        "android_client_info": {
+          "package_name": "fr.hdb.artibip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865836073482-iv8p7mc8ghste8kdm230a7jsv1h2js8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0pVCEAyxTCgqbhXQ_eCepiKiQkFAXdfw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

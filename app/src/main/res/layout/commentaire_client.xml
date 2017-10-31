@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background">
+
+    <!--
+     <include
+         android:id="@+id/toolbar"
+         layout="@layout/toolbar"
+         />
+
+     <ImageView
+         android:layout_marginTop="@dimen/marginTop"
+         android:src="@drawable/logo"
+         android:layout_centerHorizontal="true"
+         android:layout_below="@id/toolbar"
+         android:id="@+id/logo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+ -->
+    <TextView
+
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="@dimen/textSize"
+        android:text="@string/commentaire_client"/>
+
+    <LinearLayout
+        android:layout_below="@id/question"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/Linearheureminute"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+        <View
+
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary_dark"/>
+
+        <EditText
+            android:id="@+id/edit_text_commentaire"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gris"
+            android:inputType="textMultiLine"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:id="@+id/oui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VALIDER"
+        android:textSize="20dp"
+        android:textColor="@color/blanc"
+        android:background="@drawable/bt_arrondi_jaune"/>
+</RelativeLayout>

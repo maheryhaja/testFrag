@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/scroll_photo_fragment"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@color/window_background">
+
+        <TextView
+            android:id="@+id/text_question_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/card_title_margin_bottom_large"
+            android:gravity="center"
+            android:textSize="@dimen/title_size_text"
+            android:text="@string/besoin_photo_client"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_prise_photo_client"
+            android:layout_width="@dimen/card_width_height"
+            android:layout_height="@dimen/card_width_height"
+            android:layout_below="@+id/text_question_photo"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_card_yellow">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/photo_card_title"
+                android:gravity="center"
+                android:textColor="@color/text_color_primary"
+                android:paddingTop="@dimen/card_title_padding"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+            <ImageView
+                android:id="@+id/button_take_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/card_image_margin"
+                android:src="@drawable/picto_photo"/>
+        </RelativeLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/list_view_photo"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/layout_prise_photo_client"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/view_pager_photo_height"
+            android:layout_marginTop="@dimen/prisephoto_viewpager_espacement"
+            >
+        </android.support.v4.view.ViewPager>
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_marginTop="@dimen/indicator_viewpager_photo_espacement"
+            android:layout_below="@id/list_view_photo"
+            android:layout_width="match_parent"
+            app:ci_height="@dimen/indicator_photo_height_width"
+            app:ci_width="@dimen/indicator_photo_height_width"
+            app:ci_drawable="@drawable/circle_jaune_indicator"
+            app:ci_drawable_unselected="@drawable/circle_jaune_indicator"
+            android:layout_height="@dimen/indicator_height"/>
+        <Button
+            android:layout_below="@id/indicator"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="@dimen/photo_margin_bottom"
+            android:id="@+id/button_valider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/valider"
+            android:textColor="@color/blanc"
+            android:background="@drawable/bt_arrondi_jaune"/>
+
+    </RelativeLayout>
+
+</ScrollView>
+

@@ -1,0 +1,145 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <bool name="is_tablette">false</bool>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_drawer_width">270dp</dimen>
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="footer_height">35dp</dimen>
+    <dimen name="component_spacing">10dp</dimen>
+    <dimen name="component_spacing_bis">5dp</dimen>
+    <dimen name="edit_padding_left">2dp</dimen>
+    <dimen name="indicator_height_width">15dp</dimen>
+    <dimen name="button_back_width">60dp</dimen>
+    <dimen name="height_edit">40dp</dimen>
+
+    <!-- menu -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="profile_width">75dp</dimen>
+    <dimen name="profile_height">75dp</dimen>
+    <dimen name="icon_width_height">30dp</dimen>
+
+    <!-- card. -->
+    <dimen name="card_width_height">125dp</dimen>
+    <dimen name="title_size_text">15sp</dimen>
+    <dimen name="card_title_padding">5dp</dimen>
+    <dimen name="card_image_margin">10dp</dimen>
+    <dimen name="grid_spacing">30dp</dimen>
+    <dimen name="card_title_margin_bottom_large">40dp</dimen>
+    <dimen name="card_title_margin_bottom_small">20dp</dimen>
+
+    <!--artisant -->
+    <dimen name="marginBottom">30dp</dimen>
+    <dimen name="marginTop">40dp</dimen>
+    <dimen name="textSize">18dp</dimen>
+    <dimen name="toolbar_text_size">7dp</dimen>
+    <dimen name="bouttonwidth">130dp</dimen>
+    <dimen name="bouttonheight">130dp</dimen>
+
+    <!--etablissement -->
+    <dimen name="height_list_etablissemnt">200dp</dimen>
+    <dimen name="item_height_etablissement">60dp</dimen>
+    <dimen name="circle_width_height">30dp</dimen>
+    <dimen name="item_divider_height">10dp</dimen>
+    <dimen name="tab_height_etablissement">40dp</dimen>
+    <dimen name="tab_height_intervention">60dp</dimen>
+    <dimen name="question_margin">10dp</dimen>
+    <dimen name="width_bar_left">6dp</dimen>
+
+    <!-- demande -->
+    <dimen name="item_height_demande">75dp</dimen>
+    <dimen name="item_size_text">18dp</dimen>
+    <dimen name="item_size_line_separator">0.5dp</dimen>
+
+    <!--button -->
+    <dimen name="height_fit_button">30dp</dimen>
+    <dimen name="margin_fit_button">50dp</dimen>
+
+    <!-- mdp oublié et login -->
+    <dimen name="login_margin">30dp</dimen>
+    <dimen name="login_margin_top">10dp</dimen>
+    <dimen name="text_size">12sp</dimen>
+    <dimen name="_title_text_size">16sp</dimen>
+
+    <dimen name="text_size_cgu">9sp</dimen>
+    <dimen name="text_size_button">14sp</dimen>
+    <dimen name="or_margin">100dp</dimen>
+
+    <dimen name="connexion_mail_tel">20dp</dimen>
+
+    <dimen name="margin_top_logo_layout">3dp</dimen>
+    <dimen name="toolbar_height">50dp</dimen>
+    <dimen name="or_margin_layout">5dp</dimen>
+    <dimen name="or_margin_layout_pass">3dp</dimen>
+
+    <dimen name="radius">0dp</dimen>
+
+    <dimen name="list_materiel_height">50dp</dimen>
+    <dimen name="list_item_etablissement_height">80dp</dimen>
+    <dimen name="loader_size">75dp</dimen>
+
+    <dimen name="linear_commentaire_height">170dp</dimen>
+    <!-- liste photo -->
+    <dimen name="view_pager_photo_height">80dp</dimen>
+    <dimen name="indicator_photo_height_width">7dp</dimen>
+    <dimen name="indicator_viewpager_photo_espacement">10dp</dimen>
+    <dimen name="indicator_height">20dp</dimen>
+    <dimen name="boutton_indicator_photo_espacement">25dp</dimen>
+    <dimen name="prisephoto_viewpager_espacement">30dp</dimen>
+    <dimen name="pop_up_height">300dp</dimen>
+
+    <dimen name="photo_margin_bottom">30dp</dimen>
+
+    <!-- dimension boutton oui ou non -->
+    <dimen name="espacement_boutton_oui_non">30dp</dimen>
+    <dimen name="marginTop_boutton_oui_non">30dp</dimen>
+
+    <!-- artisan list demande -->
+    <dimen name="marginLeft_facturer">30dp</dimen>
+
+    <!-- artisan liste materiel -->
+    <dimen name="width_designation">170dp</dimen>
+    <dimen name="width_prix">75dp</dimen>
+    <dimen name="height_champs">40dp</dimen>
+    <dimen name="width_materiel_name">175dp</dimen>
+
+    <!-- facturation finale -->
+    <dimen name="heigh_relative_layout_deplacemnt">80dp</dimen>
+    <dimen name="titre_size">17dp</dimen>
+    <dimen name="height_relative_layout_signature">150dp</dimen>
+    <dimen name="margin_left_liste_materiel">10dp</dimen>
+    <dimen name="width_nom_materiel">130dp</dimen>
+    <dimen name="margin_left_under_materiel">10dp</dimen>
+
+
+    <!-- image logo toolbar -->
+    <dimen name="margin_bottom_logo_toolbar">7dp</dimen>
+    <dimen name="width_logo_toolbar">100dp</dimen>
+    <dimen name="margin_right_logo">10dp</dimen>
+
+    <!-- list materiel artisan -->
+    <dimen name="bouton_margin_top">150dp</dimen>
+
+    <!-- size textView demande artisan  client-->
+    <dimen name="size_text_demande_artisan">14dp</dimen>
+    <dimen name="size_text_demande_client">14dp</dimen>
+
+    <dimen name="hauteur_edit_text">50dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="margin_top_bottom_edittext">10dp</dimen>
+    <dimen name="largeur_button_art_comm">135dp</dimen>
+    <dimen name="onglet_hauteur">50dp</dimen>
+
+    <dimen name="margin_text_boutton">70dp</dimen>
+
+    <dimen name="hauteur_resumer_info_client">160dp</dimen>
+    <dimen name="hauteur_resumer_info_bancaire">50dp</dimen>
+    <dimen name="hauteur_resumer_etablissement_secondaire">240dp</dimen>
+    <dimen name="hauteur_list_item_etablissement_inscription">60dp</dimen>
+    <dimen name="margin_top_info_client">20dp</dimen>
+    <dimen name="margin_top_condition_generale">7dp</dimen>
+
+</resources>

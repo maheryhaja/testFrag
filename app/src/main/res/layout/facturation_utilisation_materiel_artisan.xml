@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background">
+
+    <TextView
+
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop"
+        android:gravity="center"
+        android:textSize="@dimen/textSize"
+        android:text="@string/utilisation_materiel"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/question"
+        android:layout_marginTop="@dimen/marginTop_boutton_oui_non"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bouttonheight"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="@dimen/bouttonwidth"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_layout_oui"
+                android:background="@drawable/bt_arrondi_jaune">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blanc"
+                    android:text="@string/oui"
+                    android:textSize="@dimen/textSize"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/color_primary_dark"/>
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_below="@id/txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/picto_oui"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/color_primary_dark"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="@dimen/bouttonwidth"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/espacement_boutton_oui_non"
+                android:id="@+id/relative_layout_non"
+                android:background="@drawable/bt_arrondi_jaune">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blanc"
+                    android:text="@string/non"
+                    android:textSize="@dimen/textSize"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/color_primary_dark"/>
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_below="@id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/picto_non"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/color_primary_dark"/>
+
+            </RelativeLayout>
+     </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

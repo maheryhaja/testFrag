@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height_demande"
+    android:textColor="#FFFFFF"
+    android:background="@color/gris_noir"
+    >
+
+        <TextView
+            android:id="@+id/text_nom_demande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:text="DEMANDE DU 03/17"
+            android:textSize="@dimen/size_text_demande_client"/>
+
+        <ImageView
+            android:id="@+id/image_statut"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/smiley_en_cour"
+           />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_size_line_separator"
+            android:layout_alignParentBottom="true"
+            android:background="@color/blanc">
+        </View>
+
+        <TextView
+            android:id="@+id/text_statut_demande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/image_statut"
+            android:layout_marginRight="15dp"
+            android:text="EN COURS"
+            android:textSize="@dimen/size_text_demande_client"/>
+
+</RelativeLayout>

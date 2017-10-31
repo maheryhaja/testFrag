@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/window_background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- ancien mot de passe field  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top_logo_layout">
+        <View
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary_dark"/>
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@color/gris"
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/picto_lock"/>
+        </RelativeLayout>
+        <EditText
+            android:id="@+id/edit_text_old_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size"
+            android:background="@color/gris"
+            android:hint="@string/old_password_hint"
+            android:textColor="@color/blanc"
+            android:inputType="textPassword"
+            android:textColorHint="@color/blanc"
+            android:imeOptions="actionDone"
+            />
+    </LinearLayout>
+
+
+    <!-- and field  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/or_margin"
+        android:layout_marginRight="@dimen/or_margin"
+        android:layout_marginTop="@dimen/or_margin_layout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_weight="40"
+            android:background="@color/blanc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/et"
+            android:textSize="@dimen/text_size"
+            />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_weight="40"
+            android:background="@color/blanc" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top_logo_layout">
+        <View
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary_dark"/>
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@color/gris"
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/picto_lock"/>
+        </RelativeLayout>
+        <EditText
+            android:id="@+id/edit_text_new_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size"
+            android:background="@color/gris"
+            android:hint="@string/new_password_hint"
+            android:textColor="@color/blanc"
+            android:inputType="textPassword"
+            android:textColorHint="@color/blanc"
+            android:imeOptions="actionDone"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top_logo_layout">
+        <View
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary_dark"/>
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@color/gris"
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/picto_lock"/>
+        </RelativeLayout>
+        <EditText
+            android:id="@+id/edit_text_confirme_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size"
+            android:background="@color/gris"
+            android:hint="@string/confirme_password_hint"
+            android:textColor="@color/blanc"
+            android:inputType="textPassword"
+            android:textColorHint="@color/blanc"
+            android:imeOptions="actionDone"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_change_password"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="@dimen/login_margin"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/envoyer"
+        android:textColor="@color/blanc"
+        android:background="@drawable/background_card_yellow"/>
+
+</LinearLayout>

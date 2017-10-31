@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_header_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="@color/noir">
+
+        <ImageView
+            android:id="@+id/nav_img_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <fr.hdb.artibip.presentation.widget.typeface.TypefaceTextView
+            android:visibility="gone"
+            android:id="@+id/nav_header_role"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            app:customTypeface="@string/lato_light"
+             />
+
+    <fr.hdb.artibip.presentation.widget.typeface.TypefaceTextView
+            android:textSize="@dimen/text_size"
+            android:id="@+id/nav_header_email"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            app:customTypeface="@string/lato_light"
+            android:paddingBottom="@dimen/nav_header_vertical_spacing"
+           />
+</LinearLayout>

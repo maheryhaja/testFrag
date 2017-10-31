@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/card_width_height"
+    android:layout_height="@dimen/card_width_height"
+    android:background="@drawable/background_card_yellow">
+
+        <TextView
+            android:id="@+id/text_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/text_color_primary"
+            android:paddingTop="@dimen/card_title_padding"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageView
+            android:id="@+id/image_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_card_exemple"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/card_image_margin"/>
+
+</RelativeLayout>

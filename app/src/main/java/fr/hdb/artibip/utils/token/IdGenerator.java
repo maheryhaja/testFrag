@@ -1,0 +1,10 @@
+package fr.hdb.artibip.utils.token;
+
+import java.util.UUID;
+
+
+public class IdGenerator {
+    public static String generateUniqueId() {
+       return UUID.randomUUID().toString();
+    }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/liste_view">
+    </ListView>
+
+    <TextView
+        android:id="@+id/text_pas_intervention"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pas_dintevention"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="@dimen/_title_text_size"
+        android:visibility="gone"/>
+
+</RelativeLayout>

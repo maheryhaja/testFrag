@@ -1,0 +1,312 @@
+<resources>
+
+    <string name="app_name">D\'CLIC ELEC</string>
+
+    <!-- inscription -->
+    <string name="artisan">ARTISAN</string>
+    <string name="commercant">COMMERÇANT</string>
+
+    <!-- card. -->
+    <string name="urgence_card_title">URGENCE</string>
+    <string name="intervention_card_title">INTERVENTION</string>
+    <string name="autre_card_title">AUTRE</string>
+    <string name="photo_card_title">PHOTO</string>
+
+    <!-- besoins -->
+    <string name="votre_besoin">QUEL EST VOTRE BESOIN ?</string>
+    <string name="votre_probleme">QUEL EST VOTRE PROBLÈME ?</string>
+
+    <!-- problèmes -->
+    <string name="aucun_urgence">AUCUN TYPE D\'URGENCE</string>
+    <string name="intervention_urgentes">INTERVENTIONS URGENTES</string>
+    <string name="intervention_non_urgentes">INTERVENTIONS NON URGENTES</string>
+
+    <!-- temps -->
+    <string name="aucun_temps">AUCUNE PLAGE HORAIRE N\' A ÉTÉ TROUVÉE.</string>
+
+    <!-- intervention -->
+    <string name="aucune_photo">VEUILLEZ PRENDRE UNE OU DES PHOTO(S) DU PROBLÈME.</string>
+    <string name="encodage_photo">UNE ERREUR S\'EST PRODUITE. VEUILLEZ RÉESSAYER ...</string>
+    <string name="veuillez_reesayer">POSTION NON LOCALISEE. VEUILLEZ RÉESSAYER ...</string>
+
+    <!-- etablissement -->
+    <string name="questions">QUESTIONS</string>
+    <string name="etablissements">ÉTABLISSEMENTS</string>
+    <string name="nom_etablissement">NOM DE L\'ÉTABLISSEMENT</string>
+    <string name="adresse_etablissement"> CLIQUER ICI POUR CHERCHER \n L\'ÉTABLISSEMENT</string>
+    <string name="rue">RUE</string>
+    <string name="ville">VILLE</string>
+    <string name="code_postal">CODE POSTAL</string>
+    <string name="pays">PAYS</string>
+    <string name="modifier_etablissement">MODIFIER UN ÉTABLISSEMENT </string>
+    <string name="supprimer_etablissement">SUPPRIMER UN ÉTABLISSEMENT </string>
+    <string name="ajouter_etablissement">AJOUTER UN ÉTABLISSEMENT </string>
+    <string name="numero_telephone_etablissement">N° DE TÉLÉPHONE ETABLISSEMENT</string>
+    <string name="personne_contacter">NOM DE LA PERSONNE À CONTACTER</string>
+    <string name="numero_telephone">N° DE TÉLÉPHONE</string>
+    <string name="changer_contact">CHANGER DE CONTACT</string>
+    <string name="aucun_etablissement">AUCUN ÉTABLISSEMENT</string>
+    <string name="ajout_etablissement">L\'ÉTABLISSEMENT A ÉTÉ AJOUTÉ AVEC SUCCÈS.</string>
+    <string name="aucune_presonne">AUCUNE PERSONNE À CONTACTER</string>
+    <string name="aucun_numero">PAS DE NUMÉRO</string>
+
+
+    <!-- artisan -->
+    <string name="duree_trajet">Dans combien de temps allez-vous arrivé ?</string>
+    <string name="moment_deplacement">Quand vous-êtes vous déplacé ?</string>
+    <string name="duree_intervention">Quelle est la durée de l\'intervention ?</string>
+    <string name="utilisation_materiel">Avez-vous utilisé du matériel ?</string>
+    <string name="liste_materiel">Pouvez-vous lister ce matériel ?</string>
+    <string name="besoin_nouvelle_intervention">Avez-vous besoin d\'une nouvelle intervention ?</string>
+    <string name="signatur">Vous devez faire signer le client dans l\'encadré blanc</string>
+    <string name="calcule_temps_parcours"><u>Calcul du temps de parcours</u></string>
+
+    <!--client -->
+    <string name="besoin_photo_client">POUVEZ-VOUS PRENDRE DES PHOTOS DU PROBLÈME ?</string>
+    <string name="commentaire_client">POUVEZ-VOUS DÉTAILLER LE PROBLÈME ?</string>
+    <string name="commentaire_employee">Pouvez-vous détailler la prochaine intervention ?</string>
+    <!-- button -->
+    <string name="valider">VALIDER</string>
+    <string name="annuler">ANNULER</string>
+    <string name="retour">OK</string>
+    <string name="erase">EFFACER</string>
+
+    <!-- demande -->
+    <string name="nouvelle_demande">NOUVELLE DEMANDE</string>
+    <string name="aucune_demande">AUCUNE DEMANDE</string>
+
+    <!-- progression -->
+
+    <!-- toolbar -->
+    <string name="bon_intervention">BON D\'INTERVENTION</string>
+    <string name="mot_de_passe_oublie">MOT DE PASSE OUBLIÉ ?</string>
+    <string name="consultation_condition"><u>CONSULTER LES CONDITIONS GÉNÉRALES</u></string>
+    <string name="connexion">CONNEXION</string>
+    <string name="accepte">J\'ACCEPTE</string>
+    <string name="refuse">JE REFUSE</string>
+    <string name="type">TYPE:</string>
+    <string name="nature">NATURE:</string>
+    <string name="detail">DÉTAIL:</string>
+    <string name="etablissment">ÉTABLISSEMENT</string>
+    <string name="chef_etablissement">CHEF D\'ÉTABLISSEMENT:</string>
+    <string name="commentaire">COMMENTAIRE:</string>
+    <string name="oui">OUI</string>
+    <string name="non">NON</string>
+    <string name="facturation">FACTURATION</string>
+    <string name="jour">LE JOUR</string>
+    <string name="nuit">LA NUIT</string>
+    <string name="weekend">LE WEEK END</string>
+    <string name="liste_demande">LISTE DES DEMANDES</string>
+    <string name="demande">DEMANDE</string>
+    <string name="prochaine_intervention">PROCHAINE INTERVENTION</string>
+    <string name="duree_intervention_toolbar">DURÉE INTERVENTION</string>
+    <string name="liste_materiel_toolbar">LISTE MATÉRIEL UTILISÉE</string>
+    <string name="condition_generale">CONDITIONS GÉNÉRALES</string>
+    <string name="mot_de_pass_oublie_toolbar">MOT DE PASSE OUBLIÉ</string>
+    <string name="change_mot_de_pass_toolbar">CHANGEMENT MOT DE PASSE</string>
+
+    <string name="error_invalid_password">MOT DE PASSE INVALIDE.</string>
+    <string name="error_length_password">MOT DE PASSE TROP COURT.</string>
+    <string name="error_confirme_password">MOT DE PASSE NON IDENTIQUE.</string>
+    <string name="error_invalid_nom_etabli">NOM DE L\' ÉTABLISSEMENT INCORRECT.</string>
+    <string name="error_invalid_email">ADRESSE EMAIL INVALIDE.</string>
+    <string name="error_invalid_tel">TÉLÉPHONE INVALIDE.</string>
+    <string name="error_field_required">CHAMP OBLIGATOIRE.</string>
+    <string name="error_login">IDENTIFIANT OU MOT DE PASSE INCORRECT.</string>
+    <string name="error_password_not_secured">MOT DE PASSE NON SECURISÉ.</string>
+    <string name="error_field_tel_or_mail">ADRESSE EMAIL OU TÉLÉPHONE REQUIS.</string>
+    <string name="error_field_tel_or_mail_or_etabli">ADRESSE EMAIL OU TÉLÉPHONE OU DE L\' ÉTABLISSEMENT REQUIS.</string>
+    <string name="error_internet">VEUILLEZ VÉRIFIER VOTRE CONNEXION INTERNET.</string>
+    <string name="error_google_play">VEUILLEZ METTRE À JOUR VOTRE SERVICE GOOGLE PLAY.</string>
+    <string name="error_cgu">VEUILLEZ ACCEPTER LES CONDITIONS GÉNÉRALES DE VENTES.</string>
+    <string name="error_mdp">VOTRE CHANGEMENT DE MOT DE PASSE À ÉCHOUÉ.</string>
+    <string name="mdp_success">VOTRE CHANGEMENT DE MOT DE PASSE À ÉTÉ UN SUCCÈS.</string>
+
+    <string name="mail">ADRESSE EMAIL</string>
+    <string name="tel">06__ __ __ __</string>
+    <string name="etablissment_hint">NOM DE L\'ÉTABLISSEMENT</string>
+    <string name="password_hint">MOT DE PASSE</string>
+    <string name="old_password_hint">ANCIEN MOT DE PASSE</string>
+    <string name="new_password_hint">NOUVEAU MOT DE PASSE</string>
+    <string name="confirme_password_hint">CONFIRMATION MOT DE PASSE</string>
+    <string name="envoyer">ENVOYER</string>
+
+    <string name="or"> OU </string>
+    <string name="et"> ET </string>
+    <string name="cgv">J\'ACCEPTE LES CONDITIONS GÉNÉRALES</string>
+    <string name="pick_image">CHANGER LA PHOTO</string>
+
+    <!-- Naviguation menu -->
+    <string-array name="nav_drawer_labels_client">
+        <item>@string/nav_accueil</item>
+        <item>@string/nav_new</item>
+        <item>@string/nav_mon_compte</item>
+        <item>@string/nav_demande</item>
+        <item>@string/nav_artisan_favoris</item>
+        <item>@string/nav_classement_artisan</item>
+        <item>@string/nav_liste_etablissements</item>
+        <item>@string/nav_cgv</item>
+        <item>@string/nav_deconnexion</item>
+    </string-array>
+
+    <string-array name="nav_drawer_labels_employe">
+        <item>@string/nav_accueil</item>
+        <item>@string/nav_mon_compte</item>
+        <item>@string/nav_demande</item>
+        <item>@string/nav_cgv</item>
+        <item>@string/nav_deconnexion</item>
+    </string-array>
+
+    <string name="nav_accueil">DEMANDE EN COURS</string>
+    <string name="nav_new">NOUVELLE DEMANDE</string>
+    <string name="nav_mon_compte">INFORMATIONS GÉNÉRALES</string>
+    <string name="nav_demande">HISTORIQUE DES INTERVENTIONS</string>
+    <string name="nav_artisan_favoris">ARTISANS FAVORIS</string>
+    <string name="nav_classement_artisan">CLASSEMENT DES ARTISANS</string>
+    <string name="nav_liste_etablissements">LISTE DES ETABLISSEMENTS</string>
+    <string name="nav_cgv">CGV</string>
+    <string name="nav_deconnexion">DÉCONNEXION</string>
+
+
+    <!-- popup -->
+
+    <string name="delete_photo">VOULEZ-VOUS SUPPRIMER CETTE PHOTO ?</string>
+
+    <string name="supprimer">SUPPRIMER</string>
+    <string name="ok">OK</string>
+    <string name="deconnexion">DÉCONNEXION</string>
+
+
+    <string name="error_ws">ERREUR LORS DE LA COMMUNICATION AVEC LE SERVEUR, VEUILLEZ RÉESSAYER ...</string>
+    <string name="information">INFORMATION</string>
+    <string name="error_calcul">CALCUL DE L\'ITINERAIRE IMPOSSIBLE </string>
+
+    <string name="facturer_list"><u>Facturer</u></string>
+
+    <string name="set_contact_error">LA MODIFICATION DU CONTACT DE L\'ÉTABLISSEMENT A ÉCHOUÉ.</string>
+    <string name="set_contact_succes">LE CONTACT DE L\'ÉTABLISSEMENT A ÉTÉ MODIFIÉ AVEC SUCCÈS.</string>
+    <string name="nope_contact">VEUILLEZ SÉLECTIONNER UN CONTACT.</string>
+
+    <string name="demande_error">VOTRE DEMANDE A ÉCHOUÉE.</string>
+
+    <string name="ajout_item_materiel"><u>Ajouter un item</u></string>
+
+    <string name="supprimer_materiel">VOULEZ-VOUS SUPPRIMER CE MATERIEL ? </string>
+    <string name="besoin_photo">AJOUTER  DES PHOTOS </string>
+
+    <string name="deconnect_error">LA DÉCONNEXION A ÉCHOUÉE, VEUILLEZ RÉESSAYER ...</string>
+    <string name="deconnexion_message">VOULEZ-VOUS VOUS DÉCONNECTER ?</string>
+    <string name="aucun_forfait_deplacement">AUCUN FORFAIT DE DÉPLACEMENT</string>
+
+    <string name="fonctionnalite">FONCTIONNALITÉ NON IMPLEMENTÉE</string>
+
+    <string name="ajout_materiel_obligation">VOUS POUVEZ AJOUTER UN ITEM</string>
+
+    <string name="demande_en_cours">VOTRE DEMANDE A ÉTÉ PRISE EN COMPTE...</string>
+    <string name="demande_envoyee_au_client">VOTRE RÉPONSE A BIEN ÉTÉ ENVOYÉE AU CLIENT</string>
+
+    <string name="intervention_refus">VOTRE DEMANDE DE REFUS D\' INTERVENTION A ÉTÉ UN SUCCÈS.</string>
+
+    <string name="signing_error">VEUILLEZ SIGNER LE BON D\' INTERVENTION.</string>
+
+    <string name="location">VEUILLEZ ACTIVER VOTRE SYSTÈME DE GÉOLOCALISATION.</string>
+    <string name="location_permission">PERMISSION D\'UTILISATION DE LA GÉOLOCALISATION REQUISE.</string>
+    <!-- facturation finale -->
+    <string name="deplacemnt">DÉPLACEMENT</string>
+    <string name="plage_horaire">PLAGE HORAIRE</string>
+    <string name="duree">DURÉE</string>
+    <string name="intervention">INTERVENTION</string>
+    <string name="materiel">MATÉRIEL</string>
+    <string name="prix_total_materiel">PRIX TOTAL MATÉRIEL</string>
+    <string name="cout_total">TOTAL H.T</string>
+    <string name="tva">TVA</string>
+    <string name="cout_ttc">TOTAL TTC</string>
+    <string name="signature_client">SIGNATURE CLIENT ( Veuillez cliquer sur l\'encadré blanc pour signer )</string>
+    <string name="apres_intervention">APRÈS L\'INTERVENTION</string>
+    <string name="autre_intervention_plannifiee">D\'AUTRE INTERVENTION PLANIFIÉE</string>
+    <string name="commentaire_facture">COMMENTAIRE</string>
+    <string name="photo_facture">PHOTO</string>
+    <string name="signature_obligation">VEUILLEZ SIGNER S\'IL VOUS PLAIT.</string>
+
+    <!-- titre toolbar -->
+    <string name="utilisation_materiel_toolbar">UTILISATION MATÉRIEL</string>
+    <string name="demande_toolbar">DEMANDE DU </string>
+    <string name="nouvelle_intervention_toolbar">NOUVELLE INTERVENTION</string>
+    <string name="signature_client_toolbar">SIGNATURE CLIENT</string>
+
+    <string name="statuts_merci">MERCI</string>
+    <string name="statuts_demande_en_cours"> VOTRE DEMANDE EST EN COURS DE TRAITEMENT</string>
+    <string name="statuts_demande_positive_heure">HEURE D\'ARRIVÉE ÉSTIMÉE</string>
+
+    <string name="statuts_demande_positive_tech">VOTRE TECHNICIEN</string>
+    <string name="statuts_demande_neg"> VOTRE DEMANDE N\'A PAS EU DE REPONSE POSITIVE</string>
+    <string name="statuts_demande_neg_conseille">  CONTACTEZ NOTRE CONSEILLER</string>
+
+    <string name="aucune_demande_client">AUCUNE DEMANDE N\'EST DISPONIBLE, PENSEZ À EN CRÉER ...</string>
+    <string name="aucune_demande_artisan">AUCUNE DEMANDE N\'EST DISPONIBLE</string>
+
+
+    <!-- pas d'intervention -->
+    <string name="pas_dintevention">PAS D\'INTERVENTION</string>
+
+    <string name="text_signature_traiter">SIGNATURE CLIENT</string>
+
+    <string name="facturation_envoyee">VOTRE FACTURE A ÉTÉ ENVOYÉE AVEC SUCCÈS</string>
+
+    <string name="set_password">VOTRE CHANGEMENT DE MOT DE PASSE A ÉTÉ UN SUCCÈS</string>
+
+    <string name="read_storage">PERMISSION DE LECTURE REQUISE. </string>
+
+    <string name="overlay">"VEUILLEZ AUTORISER LA SUPERPOSITION D\ 'ÉCRANS."</string>
+
+    <string name="gms">"VEUILLEZ VÉRIFIEZ VOTRE VERSION GOOGLE PLAY SERVICES."</string>
+
+    <string name="phone_call_requise">PERMISSION DE FAIRE UN APPEL REQUISE. </string>
+    <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"https://www.bo-application.fr\",\n  }\n}]</string>
+
+    <string name="demande_metier">QUEL EST VOTRE MÉTIER ?</string>
+    <string name="demande_etablissement_secondaire">AVEZ-VOUS DES ÉTABLISSEMENTS SECONDAIRES ?</string>
+    <string name="demande_independance_paiement">LES ÉTABLISSEMENTS SECONDAIRES SONT-ILS INDÉPENDANTS AU NIVEAU DU PAIEMENT DES FACTURES ?</string>
+    <string name="demande_independance_artisan">LES ÉTABLISSEMENTS SECONDAIRES SONT-ILS INDÉPENDANTS DANS LA SÉLÉCTION DE LEURS ARTISANS FAVORIS ?</string>
+    <string name="incription">INSCRIPTION</string>
+    <string name="raison_sociale">RAISON SOCIALE</string>
+    <string name="nom_prenom">NOM ET PRÉNOM RESPONSABLE</string>
+    <string name="adresse_facturation">ADRESSE FACTURATION</string>
+    <string name="click_adresse_facturation">CLIQUER ICI POUR RECHERCHER L\'ADRESSE DE FACTURATION</string>
+    <string name="suivant">SUIVANT</string>
+    <string name="numero_carte_bancaire">NUMÉRO CARTE BANCAIRE</string>
+    <string name="code_paiement">CODE DE PAIEMENT</string>
+    <string name="confirmation_code_paiement">CONFIRMATION CODE DE PAIEMENT</string>
+    <string name="empreinte_digitale">EMPREINTE DIGITALE</string>
+    <string name="numero_etablissement">N° DE TÉLÉPHONE ÉTABLISSEMENT</string>
+    <string name="besoin_ajout_etablissement"><u>AJOUTER ÉTABLISSEMENT</u></string>
+    <string name="info_cleent">INFO CLIENT</string>
+    <string name="paiement">PAIEMENT</string>
+    <string name="confirmation_mot_de_pass_incorrecte">MOTS DE PASSE NON IDENTIQUES</string>
+    <string name="confirmation_code_de_paiement_incorrecte">CODES DE PAIEMENT NON IDENTIQUES</string>
+    <string name="adresse_facture_requise">ADRESSE FACTURE REQUISE </string>
+    <string name="inscription_client">INSCRIPTION CLIENT</string>
+    <string name="modification_information_generale">MODIFICATIONS GÉNÉRALES</string>
+    <string name="click_inscription">S\'INSCRIRE</string>
+
+    <!-- artisan status intervention -->
+    <string name="artisan_status_a_traiter">À traiter</string>
+    <string name="artisan_status_en_cours">En cours</string>
+    <string name="artisan_status_traitee">Traitée</string>
+    <string name="artisan_status_annulee">Annulée</string>
+
+    <!-- client status demande -->
+    <string name="client_status_envoyee">ENVOYÉE</string>
+    <string name="client_status_en_cours">EN COURS</string>
+    <string name="client_status_terminee">TERMINÉE</string>
+    <string name="client_status_annulee">ANNULÉE</string>
+
+    <string name="information_client">INFORMATION CLIENT</string>
+    <string name="information_bancaire">INFORMATION BANCAIRE</string>
+    <string name="etablissement_secondaire">ÉTABLISSEMENT SECONDAIRE</string>
+
+    <string name="finger_print_non_supportee">LA FONCTION EMPREINTE DIGITALE N\'EST PAS SUPPORTÉE</string>
+    <string name="finger_print_deja_existant">EMPREINTE DÉJA ENREGISTRÉ.</string>
+    <string name="enregistrement_finger_print">VEUILLEZ ENREGISTRER VOTRE EMPREINTE DIGITAL.</string>
+
+</resources>

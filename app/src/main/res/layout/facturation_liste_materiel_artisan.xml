@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/window_background">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginTop"
+        android:gravity="center"
+        android:textSize="@dimen/textSize"
+        android:text="@string/liste_materiel"/>
+    <RelativeLayout
+        android:layout_below="@id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        >
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_champs"
+       >
+        <View
+            android:id="@+id/v1"
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary_dark"/>
+        <EditText
+            android:layout_toRightOf="@id/v1"
+            android:id="@+id/edit_text_designation"
+            android:layout_width="@dimen/width_designation"
+            android:layout_height="match_parent"
+            android:textColor="@color/blanc"
+            android:hint="Désignation"
+            android:paddingLeft="7dp"
+            android:inputType="text"
+            android:textSize="@dimen/textSize"
+            android:textColorHint="#FFFFFF"
+            android:background="@color/gris"
+            android:imeOptions="actionDone"
+            />
+        <View
+            android:layout_toRightOf="@id/edit_text_designation"
+            android:id="@+id/v2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary_dark"/>
+        <EditText
+            android:id="@+id/edit_text_prix"
+            android:layout_toRightOf="@id/v2"
+            android:layout_width="@dimen/width_prix"
+            android:layout_height="match_parent"
+            android:textColor="@color/blanc"
+            android:hint="Prix"
+            android:textSize="@dimen/textSize"
+            android:imeOptions="actionDone"
+            android:paddingLeft="7dp"
+            android:inputType="numberDecimal"
+            android:textColorHint="#FFFFFF"
+            android:background="@color/gris"/>
+        <TextView
+            android:layout_toRightOf="@id/edit_text_prix"
+            android:id="@+id/txt2"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="€ H.T"/>
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@id/r1"
+        android:layout_below="@id/r1"
+        android:id="@+id/text_view_ajout_materiel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ajout_item_materiel"
+        android:textSize="@dimen/textSize"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:visibility="gone"
+        android:id="@+id/l1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/encadrer_jaune">
+        <ListView
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_view_materiel"
+            >
+        </ListView>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="@dimen/bouton_margin_top"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/button_valider_materiel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valider"
+        android:textColor="@color/blanc"
+        android:background="@drawable/bt_arrondi_jaune"/>
+
+</LinearLayout>
+</ScrollView>

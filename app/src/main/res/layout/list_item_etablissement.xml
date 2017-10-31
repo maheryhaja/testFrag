@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_etablissement_height"
+    android:background="#000000">
+
+    <View
+        android:id="@+id/view_bar_left"
+        android:layout_width="@dimen/width_bar_left"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@color/color_primary_dark">
+    </View>
+
+    <LinearLayout
+        android:id="@+id/layout_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="40dp"
+        android:orientation= "vertical">
+        <TextView
+            android:visibility="gone"
+            android:textSize="@dimen/text_size"
+            android:id="@+id/text_nom_etablissement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/nom_etablissement"
+            android:textColor="@color/blanc"
+            android:maxLines="2"
+            android:ellipsize="end" />
+        <TextView
+            android:id="@+id/text_adresse_etablissement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/blanc"
+            android:maxLines="5"
+            android:textSize="@dimen/text_size"
+            android:text="@string/adresse_etablissement"
+            android:ellipsize="end"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:id="@+id/image_circle"
+        android:layout_width="@dimen/circle_width_height"
+        android:layout_height="@dimen/circle_width_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/circle_width_height"
+        android:src="@mipmap/ic_circle"
+        />
+
+</RelativeLayout>

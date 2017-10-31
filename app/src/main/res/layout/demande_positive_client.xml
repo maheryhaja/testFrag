@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/window_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textSize"
+        android:text="@string/statuts_demande_en_cours"/>
+
+    <LinearLayout
+        android:padding="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/marginBottom"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/noir_encadrer_rond">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanc"
+            android:text="@string/statuts_demande_positive_heure"
+            android:textSize="@dimen/textSize"
+            android:gravity="center"
+           android:layout_gravity="center"
+           />
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/text_view_demande_pos_heure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanc"
+            android:text=""
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textSize"
+        android:text="@string/statuts_demande_positive_tech"/>
+
+    <TextView
+        android:id="@+id/text_view_demande_pos_tech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textSize"
+        />
+    <TextView
+
+        android:id="@+id/text_view_demande_pos_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textSize"
+        />
+
+</LinearLayout>

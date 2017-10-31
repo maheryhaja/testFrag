@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/window_background">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/window_background">
+
+        <LinearLayout
+            android:id="@+id/layout_main_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginTop="@dimen/login_margin_top"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_under_logo"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/login_margin"
+            android:layout_marginRight="@dimen/login_margin"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hauteur_edit_text"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/margin_top_bottom_edittext">
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_primary_dark"/>
+
+                <EditText
+                    android:id="@+id/numero_bancaire"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gris"
+                    android:hint="@string/numero_carte_bancaire"
+                    android:inputType="number"
+                    android:imeOptions="actionNext"
+                    android:textColorHint="@color/blanc"
+                    android:textColor="@color/blanc"
+                    android:paddingLeft="@dimen/padding_left"
+                    android:textSize="@dimen/text_size"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hauteur_edit_text"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/margin_top_bottom_edittext">
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_primary_dark"/>
+
+                <EditText
+                    android:id="@+id/code_paiement"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gris"
+                    android:hint="@string/code_paiement"
+                    android:textColorHint="@color/blanc"
+                    android:paddingLeft="@dimen/padding_left"
+                    android:imeOptions="actionNext"
+                    android:textColor="@color/blanc"
+                    android:inputType="textPassword"
+                    android:textSize="@dimen/text_size"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hauteur_edit_text"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/margin_top_bottom_edittext">
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_primary_dark"/>
+
+                <EditText
+                    android:id="@+id/confirmation_code_paiement"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gris"
+                    android:hint="@string/confirmation_code_paiement"
+                    android:textColorHint="@color/blanc"
+                    android:paddingLeft="@dimen/padding_left"
+                    android:imeOptions="actionDone"
+                    android:ellipsize="end"
+                    android:textColor="@color/blanc"
+                    android:inputType="textPassword"
+                    android:textSize="@dimen/text_size"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="@dimen/login_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empreinte_digitale"/>
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/login_margin"
+            android:layout_marginRight="@dimen/login_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="@dimen/margin_top_bottom_edittext">
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_primary_dark"/>
+
+           <ImageView
+               android:id="@+id/finger_print"
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:background="@color/gris"/>
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/suivant"
+            android:textSize="@dimen/text_size_button"
+            android:layout_marginTop="@dimen/login_margin"
+            android:layout_marginLeft="@dimen/login_margin"
+            android:layout_marginRight="@dimen/login_margin"
+            android:textColor="@color/blanc"
+            android:background="@color/color_primary_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suivant"/>
+    </LinearLayout>
+
+</ScrollView>

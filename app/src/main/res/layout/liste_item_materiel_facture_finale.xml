@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_materiel_height"
+    android:background="@color/noir"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_materiel_height"
+        >
+        <TextView
+            android:layout_marginLeft="@dimen/margin_left_liste_materiel"
+            android:id="@+id/nom_materiel"
+            android:layout_width="@dimen/width_nom_materiel"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanc"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:gravity="right"
+            android:textSize="@dimen/text_size"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:text="ffsfffsfffdf"/>
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/prix_materiel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanc"
+            android:textSize="@dimen/text_size"
+            android:text="ffghfghf"/>
+    </RelativeLayout>
+
+</LinearLayout>

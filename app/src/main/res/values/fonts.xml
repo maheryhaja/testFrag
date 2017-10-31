@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lato_regular">fonts/Lato-Regular.ttf</string>
+
+    <string name="lato_light">fonts/Lato-Light.ttf</string>
+</resources>

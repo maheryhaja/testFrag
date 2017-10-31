@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#141414</color>
+    <color name="color_primary_dark">#EFC902</color>
+    <color name="text_color_primary">#FFFFFF</color>
+    <color name="window_background">#000000</color>
+    <color name="navigation_bar_color">#141414</color>
+    <color name="color_accent">#FF4081</color>
+
+
+    <color name="jaune">#EFC902</color>
+    <color name="gris">#323232</color>
+    <color name="gris_claire">#626262</color>
+    <color name="gris_noir">#191718</color>
+    <color name="tool_bar_color">#141414</color>
+    <color name="noir">#000000</color>
+    <color name="blanc">#FFFFFF</color>
+    <color name="orange">#FFA500</color>
+    <color name="orange_rouge">#EF3500</color>
+    <color name="vert">#007F15</color>
+
+    <color name="jaune_sombre">#55EFC902</color>
+
+</resources>
